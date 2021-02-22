@@ -1,0 +1,58 @@
+body {
+  width: 99%;
+  background-color: #fbecd3;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+.purpleText {
+  color: #73585c;
+  font-family: "Oleo Script", Arial, Helvetica, sans-serif;
+  /* font-family: Cookie, Arial, Helvetica, sans-serif; */
+  /* font-family: "Merienda One", Arial, Helvetica, sans-serif; */
+  /* font-family: "Pacifico", Arial, Helvetica, sans-serif; */
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+#photoBtn {
+  background-color: #ca4540;
+  color: #ffcaae;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 2%;
+}
+
+#ulDogImgs {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.liDogImg {
+  display: flex;
+  align-items: center;
+  background-color: #dbdda8;
+  height: 12rem;
+  width: 22%;
+  margin: 1.5%;
+  padding: 2rem 0;
+}
+
+.dogImg {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
